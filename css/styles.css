@@ -1,3 +1,21 @@
+:root {
+  /*head*/
+  --color-logo-first: #4d5ae5;
+  --color-logo-sec: #2e2f42;
+  --color-logo-thr: #f4f4fd;
+  --color-heead-text: #2e2f42;
+  --color-head-adres: #434455;
+  /*main*/
+  --color-hero-text: #ffffff;
+  --color-hero-button-text: #ffffff;
+  --color-text-main: #434455;
+  --color-text-accent: #2e2f42;
+  --color-bgr-main: #2e2f42;
+  --color-bgr-first: #e5e5e5;
+  --color-bgr-sec: #f4f4fd;
+}
 body {
-    background-color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
