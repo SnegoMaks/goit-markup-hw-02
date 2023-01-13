@@ -24,12 +24,10 @@ body {
   color: var(--color-text-main);
 }
 /*imposibl*/
-.link {
+.link:hover {
   text-decoration: none;
 }
-.list:hover,
-.list:focus {
-  color: var(--color-link);
+.li {
   list-style: none;
 }
 /*header*/
