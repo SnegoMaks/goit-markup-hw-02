@@ -8,6 +8,7 @@
   /*main*/
   --color-hero-text: #ffffff;
   --color-hero-button-text: #ffffff;
+  --color-hero-button: #4d5ae5;
   --color-text-main: #434455;
   --color-text-accent: #2e2f42;
   --color-text-accent-h2: #2e2f42;
@@ -15,6 +16,8 @@
   --color-bgr-first: #e5e5e5;
   --color-bgr-sec: #f4f4fd;
   --color-link: #404bbf;
+  /*footer*/
+  --color-footer-text: #e7e9fc;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -79,6 +82,11 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-hero-text);
 }
+.hero-button {
+  background-color: var(--color-hero-button);
+  color: var(--color-hero-button-text);
+}
+
 /*-------section about-------*/
 .about-work {
   font-weight: 500;
@@ -121,4 +129,27 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-text-accent);
 }
-/*footer*/ ;
+.comand-position {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text-main);
+}
+/*------------footer----------*/
+.footer {
+  background-color: var(--color-bgr-main);
+}
+.logo-white {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-logo-thr);
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-footer-text);
+}
