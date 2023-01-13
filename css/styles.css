@@ -13,9 +13,10 @@
   --color-bgr-main: #2e2f42;
   --color-bgr-first: #e5e5e5;
   --color-bgr-sec: #f4f4fd;
+  --color-link: #404bbf;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -26,7 +27,9 @@ body {
 .link {
   text-decoration: none;
 }
-.list {
+.list:hover,
+.list:focus {
+  color: var(--color-link);
   list-style: none;
 }
 /*header*/
@@ -34,7 +37,7 @@ body {
   color: var(--color-logo-first);
 }
 .logo {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -60,6 +63,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-head-adres);
 }
+
 /*main*/
 /*hero*/
 /*footer*/
