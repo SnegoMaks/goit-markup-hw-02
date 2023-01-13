@@ -10,6 +10,7 @@
   --color-hero-button-text: #ffffff;
   --color-text-main: #434455;
   --color-text-accent: #2e2f42;
+  --color-text-accent-h2: #2e2f42;
   --color-bgr-main: #2e2f42;
   --color-bgr-first: #e5e5e5;
   --color-bgr-sec: #f4f4fd;
@@ -24,7 +25,7 @@ body {
   color: var(--color-text-main);
 }
 /*imposibl*/
-.link:hover {
+.link {
   text-decoration: none;
 }
 .li {
@@ -61,7 +62,63 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-head-adres);
 }
+.hov:hover,
+.hov:focus {
+  color: var(--color-link);
+}
 
-/*main*/
-/*hero*/
-/*footer*/
+/*----------main------------*/
+/*-------section-hero--------*/
+.hero {
+  background-color: var(--color-bgr-main);
+}
+.hero-text {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--color-hero-text);
+}
+/*-------section about-------*/
+.about-work {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-text-accent);
+}
+.about-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text-main);
+}
+/*------- section wawd------*/
+.wawd-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-text-accent-h2);
+}
+/*--------section our team---------*/
+.comand {
+  background-color: var(--color-bgr-sec);
+}
+.comand-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-text-accent-h2);
+}
+.comand-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-text-accent);
+}
+/*footer*/ ;
