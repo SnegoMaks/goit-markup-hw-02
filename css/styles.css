@@ -156,7 +156,7 @@ body {
   color: var(--color-footer-text);
 }
 /*-------portfolio------*/
-/*---------section--------*/
+/*---------section- btn--------*/
 .btn {
   background-color: var(--color-bgr-many-button);
   font-weight: 500;
@@ -169,4 +169,18 @@ body {
   cursor: pointer;
   color: var(--color-hero-button-text);
   background-color: var(--color-link);
+}
+/*-------sectiom-many-ikon------*/
+.many-ikon-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-text-accent);
+}
+.many-ikon-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text-main);
 }
