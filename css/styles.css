@@ -69,7 +69,7 @@ body {
 }
 .hov:hover,
 .hov:focus {
-  color: var(--color-link);
+  background-color: var(--color-link);
 }
 
 /*----------main------------*/
