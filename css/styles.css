@@ -56,11 +56,16 @@ body {
 .logo:focus {
   color: var(--logo-first);
 }
+
 .navi-first > .link {
   font-weight: 500;
   line-height: 1.5;
   color: var(--head-text);
 }
+.link.current {
+  color: var(--logo-first);
+}
+
 .navi-second > .link {
   color: var(--head-adres);
   line-height: 1.5;
