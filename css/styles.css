@@ -1,25 +1,25 @@
 :root {
   /*head*/
-  --color-logo-first: #4d5ae5;
-  --color-logo-sec: #2e2f42;
-  --color-logo-thr: #f4f4fd;
-  --color-head-text: #2e2f42;
-  --color-head-adres: #434455;
+  --logo-first: #4d5ae5;
+  --logo-sec: #2e2f42;
+  --logo-thr: #f4f4fd;
+  --head-text: #2e2f42;
+  --head-adres: #434455;
   /*main*/
-  --color-hero-text: #ffffff;
-  --color-hero-button-text: #ffffff;
-  --color-hero-button: #4d5ae5;
-  --color-text-main: #434455;
-  --color-text-accent: #2e2f42;
-  --color-text-accent-h2: #2e2f42;
-  --color-bgr-main: #2e2f42;
-  --color-bgr-first: #e5e5e5;
-  --color-bgr-sec: #f4f4fd;
-  --color-bgr-many-button: #f4f4fd;
-  --color-text-many-button: #4d5ae5;
-  --color-link: #404bbf;
+  --hero-text: #ffffff;
+  --hero-button-text: #ffffff;
+  --hero-button: #4d5ae5;
+  --text-main: #434455;
+  --text-accent: #2e2f42;
+  --text-accent-h2: #2e2f42;
+  --bgr-main: #2e2f42;
+  --bgr-first: #e5e5e5;
+  --bgr-sec: #f4f4fd;
+  --bgr-many-button: #f4f4fd;
+  --text-many-button: #4d5ae5;
+  --link: #404bbf;
   /*footer*/
-  --color-footer-text: #e7e9fc;
+  --footer-text: #e7e9fc;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -27,7 +27,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--color-text-main);
+  color: var(--text-main);
 }
 /*imposibl*/
 .link {
@@ -38,7 +38,7 @@ body {
 }
 /*header*/
 .logo-blue {
-  color: var(--color-logo-first);
+  color: var(--logo-first);
 }
 .logo {
   font-family: "Raleway";
@@ -48,49 +48,49 @@ body {
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--color-logo-sec);
+  color: var(--logo-sec);
 }
 .logo:hover,
 .logo:focus {
-  color: var(--color-logo-first);
+  color: var(--logo-first);
 }
 .navi-first > .link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-head-text);
+  color: var(--head-text);
 }
 .navi-second > .link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-head-adres);
+  color: var(--head-adres);
 }
 .hov:hover,
 .hov:focus {
-  color: var(--color-link);
+  color: var(--link);
 }
 
 /*----------main------------*/
 /*-------section-hero--------*/
 .hero {
-  background-color: var(--color-bgr-main);
+  background-color: var(--bgr-main);
 }
 .hero-text {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  color: var(--color-hero-text);
+  color: var(--hero-text);
 }
 .hero-button {
-  background-color: var(--color-hero-button);
-  color: var(--color-hero-button-text);
+  background-color: var(--hero-button);
+  color: var(--hero-button-text);
 }
 .hero-button:hover,
 .hero-button:focus {
-  background-color: var(--color-link);
+  background-color: var(--link);
 }
 /*-------section about-------*/
 .about-work {
@@ -98,13 +98,13 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--color-text-accent);
+  color: var(--text-accent);
 }
 .about-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-text-main);
+  color: var(--text-main);
 }
 /*------- section wawd------*/
 .wawd-title {
@@ -113,11 +113,11 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--color-text-accent-h2);
+  color: var(--text-accent-h2);
 }
 /*--------section our team---------*/
 .comand {
-  background-color: var(--color-bgr-sec);
+  background-color: var(--bgr-sec);
 }
 .comand-title {
   font-weight: 700;
@@ -125,24 +125,24 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--color-text-accent-h2);
+  color: var(--text-accent-h2);
 }
 .comand-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--color-text-accent);
+  color: var(--text-accent);
 }
 .comand-position {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-text-main);
+  color: var(--text-main);
 }
 /*------------footer----------*/
 .footer {
-  background-color: var(--color-bgr-main);
+  background-color: var(--bgr-main);
 }
 .logo-white {
   font-weight: 800;
@@ -150,13 +150,13 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--color-logo-thr);
+  color: var(--logo-thr);
 }
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-footer-text);
+  color: var(--footer-text);
 }
 /*-------portfolio------*/
 /*---------section- btn--------*/
